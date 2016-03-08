@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/schovi/webpack-chrome-extension",
+  "default_locale" : "en",
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content/index.js"]
+    }
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background/index.js"]
+  },
+  "chrome_url_overrides" : {
+    "newtab": "newtab/index.html"
+  },
+  "options_page" : "options/index.html",
+  "permissions": [
+    "background",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/webpack-16.png",
+    "32": "icons/webpack-32.png",
+    "128": "icons/webpack-128.png"
+  }
+}

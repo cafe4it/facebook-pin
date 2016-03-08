@@ -1,0 +1,10 @@
+{
+  "extName" : {
+    "message" : "Facebook pin to top",
+    "description" : "Extension name"
+  },
+  "extDescription" : {
+    "message" : "Facebook pin post to top your timeline...",
+    "description" : "Extension description"
+  }
+}

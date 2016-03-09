@@ -12,9 +12,6 @@
     "persistent": false,
     "scripts": ["background/index.js"]
   },
-  "chrome_url_overrides" : {
-    "newtab": "newtab/index.html"
-  },
   "options_page" : "options/index.html",
   "permissions": [
     "background",
